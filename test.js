@@ -1,7 +1,7 @@
 var mod = require('./lib');
 
 exports['should return correct values'] = function(test) {
-  test.expect(6);
+  test.expect(7);
 
   test.strictEqual(mod(255, 255), 0, 'should be correct value');
   test.strictEqual(mod(-127, 255), 128, 'should be correct value');
