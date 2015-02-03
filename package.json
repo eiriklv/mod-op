@@ -1,0 +1,30 @@
+{
+  "name": "mod-op",
+  "version": "1.0.0",
+  "main": "./lib.js",
+  "description": "Modulo operator for numbers",
+  "dependencies": {},
+  "devDependencies": {
+    "nodeunit": "0.9.x"
+  },
+  "scripts": {
+    "test": "nodeunit test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eiriklv/mod-op.git"
+  },
+  "keywords": [
+    "modulo",
+    "modulus",
+    "remainder",
+    "wrap",
+    "wrapping"
+  ],
+  "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)",
+  "bugs": {
+    "url": "https://github.com/eiriklv/mod-op/issues"
+  },
+  "homepage": "https://github.com/eiriklv/mod-op",
+  "license": "MIT"
+}
