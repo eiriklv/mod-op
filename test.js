@@ -9,6 +9,7 @@ exports['should return correct values'] = function(test) {
   test.strictEqual(mod(1, 255), 1, 'should be correct value');
   test.strictEqual(mod(257, 255), 2, 'should be correct value');
   test.strictEqual(mod(512, 255), 2, 'should be correct value');
+  test.strictEqual(mod(510, 255), 0, 'should be correct value');
 
   test.done();
 }
