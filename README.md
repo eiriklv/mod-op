@@ -13,7 +13,7 @@ Modulo operator as a function for JavaScript, as it only has the remainder (`%`)
 
 ### mod(dividend, divisor)
 
-Perform `divident` modulo `divisor`
+Perform `dividend` modulo `divisor`
 
 __Arguments__
 
